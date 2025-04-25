@@ -1,0 +1,17 @@
+@keyframes title-gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1000px 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    translate: 0;
+  }
+  100% {
+    translate: calc(-100% - 100vw);
+  }
+}

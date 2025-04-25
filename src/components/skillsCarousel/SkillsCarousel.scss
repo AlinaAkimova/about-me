@@ -1,0 +1,61 @@
+@import "../../assets/styles/index.scss";
+
+.skills-carousel {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &__name {
+    padding-left: 120px;
+    margin-bottom: 100px;
+  }
+
+  &__slider {
+    background-color: $color-beige;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 2s, opacity 2s;
+  }
+
+  &__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: $laptop-small) {
+  .skills-carousel {
+    &__name {
+      padding-left: 70px;
+      margin-bottom: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-default) {
+  .skills-carousel {
+    &__name {
+      padding-left: 50px;
+    }
+
+    &__img {
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .skills-carousel {
+    &__name {
+      padding-left: 20px;
+    }
+  }
+}

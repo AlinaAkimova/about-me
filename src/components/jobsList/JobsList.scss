@@ -1,0 +1,80 @@
+@import "../../assets/styles/index.scss";
+
+.jobs-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  &__section-name {
+    white-space: pre-wrap;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    gap: 10px;
+    padding: 50px;
+    background-color: $color-beige;
+    border-radius: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 2s, opacity 2s;
+  }
+
+  &__header {
+    height: 44px;
+    margin-bottom: 16px;
+  }
+
+  &__name {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-grey-text;
+  }
+
+  &__years {
+    color: $color-main-text;
+  }
+}
+
+@media screen and (max-width: $laptop-small) {
+  .jobs-list {
+    &__card {
+      padding: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-large) {
+  .jobs-list {
+    flex-direction: column;
+    gap: 70px;
+
+    &__section-name {
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-default) {
+  .jobs-list {
+    &__cards {
+      flex-direction: column;
+    }
+
+    &__section-name {
+      white-space: nowrap;
+    }
+  }
+}
