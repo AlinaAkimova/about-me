@@ -1,7 +1,5 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-
-export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/about-me/" : "/",
-  plugins: [react()],
-});
+module.exports = {
+  output: {
+    publicPath: process.env.NODE_ENV === "production" ? "/about-me/" : "/",
+  },
+};
