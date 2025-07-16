@@ -2,7 +2,7 @@ import { Project } from "../types/project";
 
 export const projectsEn: Project[] = [
   {
-    img: "/projects/vibox.webp",
+    img: "./projects/vibox.webp",
     name: "Vibox",
     info: "Web application for building and purchasing your computer",
     link: "https://vibox.co.uk/",
@@ -12,7 +12,7 @@ export const projectsEn: Project[] = [
     team: "2 frontend developers, a backend developer, a QA tester, a project manager;\na designer on the client's side",
   },
   {
-    img: "/projects/quiz.webp",
+    img: "./projects/quiz.webp",
     name: "QuizWhiz",
     info: "Telegram application for quiz games",
     link: "https://t.me/notQuizWhizBot/QuizWhiz",
@@ -22,7 +22,7 @@ export const projectsEn: Project[] = [
     team: "a frontend developer, a project manager;\na designer and backend developers on the client's side",
   },
   {
-    img: "/projects/fruktorum.webp",
+    img: "./projects/fruktorum.webp",
     name: "Fruktorum",
     info: "Work on updating the company's website",
     link: "https://fruktorum.com/ru",
@@ -32,7 +32,7 @@ export const projectsEn: Project[] = [
     team: "2–3 frontend developers, depending on availability, a project manager",
   },
   {
-    img: "/projects/chess.webp",
+    img: "./projects/chess.webp",
     name: "Chess Generation",
     info: "Web application for the sale of chess courses",
     link: "https://generationchess.ru/",
@@ -42,7 +42,7 @@ export const projectsEn: Project[] = [
     team: "the project was developed outside the company by a team of developers (with a rotating lineup)",
   },
   {
-    img: "/projects/olga.webp",
+    img: "./projects/olga.webp",
     name: "Olga finance",
     info: "Web application for planning working hours and calculating company finances",
     technologies: "React / TypeScript / MobX / Axios / MUI",

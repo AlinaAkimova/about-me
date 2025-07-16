@@ -11,7 +11,7 @@ export default function Header() {
       <LangChanger />
       <img
         className="header__photo"
-        src="/me.webp"
+        src="./me.webp"
         alt="me"
         width={500}
         height={700}

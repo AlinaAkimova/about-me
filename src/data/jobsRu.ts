@@ -3,7 +3,7 @@ import { Job } from "../types/job";
 export const jobsRu: Job[] = [
   {
     name: "Fruktorum",
-    years: "октябрь 2023 - март 2025",
+    years: "с октября 2023",
     link: "https://fruktorum.com/ru",
     description: "Студия разработки игр и приложений",
   },

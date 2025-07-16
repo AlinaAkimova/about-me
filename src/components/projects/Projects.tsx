@@ -43,7 +43,7 @@ export default function Projects() {
               <h3 className="projects__card-name">{project.name}</h3>
               <p className="projects__info">{project.info}</p>
               <img
-                src="/icons/hand.svg"
+                src="./icons/hand.svg"
                 alt="hand icon"
                 className="projects__hand-icon"
               />
@@ -77,7 +77,7 @@ export default function Projects() {
                   target="_blank"
                   className="projects__link"
                 >
-                  <img src="icons/arrow.svg" alt="arrow icon" />
+                  <img src="./icons/arrow.svg" alt="arrow icon" />
                 </a>
               )}
             </div>

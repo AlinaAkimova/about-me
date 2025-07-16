@@ -17,13 +17,13 @@ export default function Footer() {
 
       <span className="footer__links">
         <a href="https://t.me/akimova_alinaaa">
-          <img src="/icons/tg.svg" alt="tg icon" />
+          <img src="./icons/tg.svg" alt="tg icon" />
         </a>
         <a href="https://www.linkedin.com/in/alina-akimova-b1b778280/">
-          <img src="/icons/linkedin.svg" alt="linkedin icon" />
+          <img src="./icons/linkedin.svg" alt="linkedin icon" />
         </a>
         <a href="https://github.com/AlinaAkimova">
-          <img src="/icons/github.svg" alt="github icon" />
+          <img src="./icons/github.svg" alt="github icon" />
         </a>
       </span>
     </footer>

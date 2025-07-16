@@ -12,7 +12,7 @@ export default function SkillsCarousel() {
   const params = {
     loop: true,
     simulateTouch: false,
-    allowTouchMove: false,
+    // allowTouchMove: false,
     autoplay: {
       delay: 1500,
     },
@@ -41,7 +41,7 @@ export default function SkillsCarousel() {
         {brands.map((item) => (
           <SwiperSlide className="skills-carousel__slide" key={item}>
             <img
-              src={`/brands/${item}.png`}
+              src={`./brands/${item}.png`}
               alt={item}
               className="skills-carousel__img"
             />

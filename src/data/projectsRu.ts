@@ -2,7 +2,7 @@ import { Project } from "../types/project";
 
 export const projectsRu: Project[] = [
   {
-    img: "/projects/vibox.webp",
+    img: "./projects/vibox.webp",
     name: "Vibox",
     info: "Web-приложение для сборки и покупки компьютера",
     link: "https://vibox.co.uk/",
@@ -12,7 +12,7 @@ export const projectsRu: Project[] = [
     team: "2 фронтендера, бэкендер, тестировщик, менеджер;\nдизайнер со стороны заказчика",
   },
   {
-    img: "/projects/quiz.webp",
+    img: "./projects/quiz.webp",
     name: "QuizWhiz",
     info: "Телеграм приложение для онлайн игры в викторины",
     link: "https://t.me/notQuizWhizBot/QuizWhiz",
@@ -22,7 +22,7 @@ export const projectsRu: Project[] = [
     team: "фронтендер, менеджер;\nдизайнер и бэкендеры со стороны заказчика",
   },
   {
-    img: "/projects/fruktorum.webp",
+    img: "./projects/fruktorum.webp",
     name: "Fruktorum",
     info: "Работа над обновлением сайта компании",
     link: "https://fruktorum.com/ru",
@@ -32,7 +32,7 @@ export const projectsRu: Project[] = [
     team: "2-3 фронтендера в зависимости от занятости, менеджер",
   },
   {
-    img: "/projects/chess.webp",
+    img: "./projects/chess.webp",
     name: "Chess Generation",
     info: "Web-приложение для продажи курсов по обучению игры в шахматы",
     link: "https://generationchess.ru/",
@@ -42,7 +42,7 @@ export const projectsRu: Project[] = [
     team: "проект разрабатывался вне компании группой разработчиков (с переменным составом)",
   },
   {
-    img: "/projects/olga.webp",
+    img: "./projects/olga.webp",
     name: "Olga finance",
     info: "Web-приложение для учета рабочего времени сотрудника и расчета основных бизнес-показателей компании",
     technologies: "React / TypeScript / MobX / Axios / MUI",
